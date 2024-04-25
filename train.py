@@ -6,7 +6,8 @@ import numpy as np
 from tqdm import tqdm
 
 
-names=["Benjamin_Netanyau","Jens_Stoltenberg","Julia_Gillard","Magaret_Tarcher","Nelson_Mandela","Karthik"]
+
+names=["Nelson_Mandela","Karthik"]
 
 #LOADING THE DATA
 datapath="./audio/"
@@ -114,7 +115,7 @@ model.add(Dense(128,activation="relu"))
 model.add(Dropout(0.25))
 model.add(Dense(64,activation="relu"))
 model.add(Dropout(0.25))
-model.add(Dense(6,activation="softmax"))
+model.add(Dense(2,activation="softmax"))
 
 model.compile(loss=keras.losses.categorical_crossentropy,
              optimizer=keras.optimizers.Adadelta(),

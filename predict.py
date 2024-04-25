@@ -9,8 +9,8 @@ from keras.utils import to_categorical
 import numpy as np
 from tqdm import tqdm
 
+names=["Nelson_Mandela","Karthik",]
 
-names=["Benjamin_Netanyau","Jens_Stoltenberg","Julia_Gillard","Magaret_Tarcher","Nelson_Mandela","Karthik"]
 
 #--------------------------------------
 #EXTRACTING MFCC AND PADDING ZEROES THEN SAVING IT AS .NPY FILES
