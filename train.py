@@ -115,7 +115,7 @@ model.add(Dense(128,activation="relu"))
 model.add(Dropout(0.25))
 model.add(Dense(64,activation="relu"))
 model.add(Dropout(0.25))
-model.add(Dense(2,activation="softmax"))
+model.add(Dense(len(names),activation="softmax"))
 
 model.compile(loss=keras.losses.categorical_crossentropy,
              optimizer=keras.optimizers.Adadelta(),
