@@ -1,6 +1,6 @@
 # Speaker Recognition System using CNN 🔥
 
-A complete report of the implementation of this system is available here : 
+A complete report of the implementation of this system is available here : https://github.com/karthxk07/SpeakerRecognition/blob/b00dbcbd3986797517dcd5773d25b91f4e5d841d/Report.pdf
 
 
 For a local dataset used which contained voice samples from 2 users (with Epoch=25)
